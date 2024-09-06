@@ -27,7 +27,7 @@ const IncrementComponent: React.FC = React.memo(() => {
         isClosable: true,
       });
     }
-  }, [error, toast]);
+  }, [error, toast]); 
 
   return (
     <VStack spacing={4} align="stretch" p={4}>

@@ -14,7 +14,7 @@ const exampleSlice = createSlice({
       state.value += action.payload;
       state.loading = false;
     },
-    incrementByAmountFailure: (state, action: PayloadAction<string>) => {
+    incrementByAmountFailure: (state, action: PayloadAction<unknown>) => {
       state.loading = false;
       state.error = action.payload;
     },
